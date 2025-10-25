@@ -20,7 +20,8 @@ def def_test():
 
 
 with DAG(
-    dag_id="get_raw_data_dag",
+    dag_id="test_dag_1",
+    description="Dag for testing purposes",
     default_args=default_args,
     params=default_params,
     start_date=datetime(2021, 1, 1),
